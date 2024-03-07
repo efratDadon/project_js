@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    font-family: 'Segoe UI';
+    background-color: #fffff0;
+    color: #676a6c;
+}
+
+.end_guid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.end_guid p {
+    font-size: 1.8em;
+}
+
+.end_guid div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.end_guid>i {
+    font-size: 11em;
+    animation: vi 1s infinite;
+    color: rgb(1, 158, 163);
+}
+
+@keyframes vi {
+    0% {
+        transform: scale(0.3)
+    }
+
+    50% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css" />
+    <link rel="stylesheet" href="./home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="nav_all">
+        <div class="navbar">
+            <span class="icon" onclick="toggleMenu()"><i class="fas fa-bars">ניווט</i></span>
+            <div class="Navigation" id="menuContent">
+                <a href="../home/home.html">דף הבית</a>
+                <a href="../about/about.html">אודות</a>
+                <a href="../brunches/brunch.html">סניפים</a>
+                <a href="../products/products.html">תפריטים</a>
+                <a href="../conect/conect.html">צור קשר</a>
+                <a href="#" onclick="toggleMenu()">X סגור תפריט</a>
+            </div>
+        </div>
+        <div id="green_nav">
+            <a href="../products/products.html"><img src="../../assets/Background/איסוף עצמי.png" a></a>
+            <div id="space"></div>
+            <a href="../brunches/brunch.html"><img src="../../assets/Background/בואו לבקר.png" a></a>
+            <div id="space"></div>
+            <a href="../conect/conect.html"><img src="../../assets/Background/צור קשר.png" a></a>
+            <div id="space"></div>
+        </div>
+
+        <div id="space_a"></div>
+        <div id="hello"><i class="fas fa-user"></i>שלום </div>
+        <div id="blue_nav">
+            <div id="blue_nav_1">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">משתמש חדש</button><br><br>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">משתמש חדש</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="form">
+
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">הכנס שם:</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-adress" class="col-form-label">הכנס כתובת:</label>
+                                        <input type="text" class="form-control" id="adress">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-num" class="col-form-label">הכנס מספר טלפון:</label>
+                                        <input type="text" class="form-control" id="num" min="9" max="10">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-emeil" class="col-form-label">הכנס כתובת מייל:</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-password" class="col-form-label">הקש סיסמה:</label>
+                                        <input type="password" class="form-control" id="password" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-password" class="col-form-label">אימות סיסמה:</label>
+                                        <input type="password" class="form-control" id="password1" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">העדפות שלך:</label>
+                                        <textarea class="form-control" id="message"></textarea>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">ביטול</button>
+                                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"
+                                            id="join">הצטרפות</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="blue_nav_2">
+                <button type="button" id="b_2" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1" data-bs-whatever="@mdo">כניסה</button>
+
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">כניסה</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="form1">
+
+                                    <div class="mb-3">
+                                        <label for="recipient-name1" class="col-form-label">הכנס שם:</label>
+                                        <input type="text" class="form-control" id="name1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-password2" class="col-form-label">הקש סיסמה:</label>
+                                        <input type="password" class="form-control" id="password2" required>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">ביטול</button>
+                                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"
+                                            id="join1">כניסה</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="imageContainer" width="30%" higth="30vh">
+        <a id="closeButton" class="closewindow3" title="close">❌</a>
+        <img id="myImage" src="../../assets/Background/טיימר.png">
+    </div>
+    <div>
+        <span id="emptyCartMessage" style="display: none; position: fixed; top: 15vh; right: 5%;">הסל שלך ריק
+            כרגע</span>
+        <div class="background">
+            <img src="../../assets/Background/61720.png" id="Logo" width="17%">
+            <a href="#img_1"> <i class="fas fa-angle-down"></i>
+            </a>
+        </div>
+    </div>
+    <img src="../../assets/Background/צילום סיפור דף הבית.png" id="img_1">
+    <img src="../../assets/Background/מסעדות דף הבית.png" id="img_1">
+    <div class="restaurant">
+        <a href="../brunches/brunch.html#f" id="g">
+            <div>אשדוד</div>
+        </a>
+        <a href="../brunches/brunch.html#a" id="b">
+            <div>הרצליה</div>
+        </a>
+        <a href="../brunches/brunch.html#c" id="c">
+            <div>חולון</div>
+        </a>
+        <a href="../brunches/brunch.html#e" id="d">
+            <div>ירושלים</div>
+        </a>
+        <a href="../brunches/brunch.html#d" id="e">
+            <div>קרית אונו</div>
+        </a>
+        <a href="../brunches/brunch.html#b" id="f">
+            <div>ראשון לציון</div>
+        </a>
+    </div>
+    <img src="../../assets/Background/אירועים דף הבית.png" id="img_1">
+    <div id="white"></div>
+    <div id="cup_media">
+        <img src="../../assets/Background/רקע לכוס.png">
+    </div>
+    <div id="img_1" class="cup">
+        <img src="../../assets/Background/כוס.png" id="cup">
+    </div>
+    <img src="../../assets/Background/ניווט תחתון.png" id="img_1">
+    <div class="all_brunch">
+        <div class="brunch">
+            <a href="../brunches/brunch.html#f">אשדוד</a>
+            <p> | </p>
+            <a href="../brunches/brunch.html#a">הרצליה</a>
+            <p> | </p>
+            <a href="../brunches/brunch.html#c">חולון</a>
+            <p> | </p>
+            <a href="../brunches/brunch.html#e">ירושלים</a>
+            <p> | </p>
+            <a href="../brunches/brunch.html#d">קרית אונו</a>
+            <p> | </p>
+            <a href="../brunches/brunch.html#b">ראשון לציון</a>
+        </div>
+    </div>
+
+    <script src="./home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

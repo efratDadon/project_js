@@ -1,0 +1,22 @@
+[
+    {
+        "name":"הרצליה",
+        "image":"../../assets/Branches/הרצליה.jpg"
+    },
+    {
+        "name":"קרית אונו",
+        "image":"../../assets/Branches/קרית אונוjpg"
+    },    {
+        "name":"אשדוד",
+        "image":"../../assets/Branches/אשדוד.jpg"
+    },    {
+        "name":"ירושלים",
+        "image":"../../assets/Branches/ירושלים.jpg"
+    },    {
+        "name":"ראשוון לציון",
+        "image":"../../assets/Branches/ראשון לציון.jpg"
+    },    {
+        "name":"חולון",
+        "image":"../../assets/Branches/חולון.jpg"
+    }
+]

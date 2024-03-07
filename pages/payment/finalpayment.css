@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url(../../assets/Background/תמונת\ רקע\ דף\ תפריטים.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#all_form {
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: rgba(154, 154, 151, 0);
+  border: 3px solid #ccc;
+  border-radius: 2px;
+}
+
+#paymentForm {
+  color: black
+}
+
+#cost {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: bold;
+
+}
+
+.btn-primary {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

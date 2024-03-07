@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./finalpayment.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>תשלום</h1>
+  <div id="all_form">
+    <div id="cost">
+      סה"כ לתשלום
+    </div>
+    <div id="paymentForm">
+      <form class="row g-3">
+        <div class="col-md-2">
+          <label for="validationDefault01" class="form-label"> שם פרטי</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="ישראל" required>
+        </div>
+        <div class="col-md-2">
+          <label for="validationDefault02" class="form-label">שם משפחה</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="כהן" required>
+        </div>
+        <div class="col-md-2">
+          <label for="validationDefault03" class="form-label">מספר זהות</label>
+          <input type="text" class="form-control" id="validationDefault03" placeholder="123456789" required>
+        </div>
+      </form>
+
+      <form class="row g-3">
+        <div class="col-md-2">
+          <label for="validationDefault01" class="form-label"> עיר</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="ירושלים" required>
+        </div>
+        <div class="col-md-2">
+          <label for="validationDefault02" class="form-label">רחוב</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="גאולה" required>
+        </div>
+        <div class="col-md-2">
+          <label for="validationDefault03" class="form-label">מספר בית</label>
+          <input type="text" class="form-control" id="validationDefault03" placeholder="1" required>
+        </div>
+      </form>
+
+      <form class="row g-3">
+        <div class="col-md-3">
+          <label for="validationDefault02" class="form-label">מספר כרטיס אשראי</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="0000-0000-0000-0000" required>
+        </div>
+        <div class="col-md-1">
+          <label for="validationDefault04" class="form-label">חודש</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">01</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+        </div>
+        <div class="col-md-1">
+          <label for="validationDefault05" class="form-label">שנה</label>
+          <input type="number" class="form-control" id="validationDefault05" value="2023" min="2023" max="2040"
+            required>
+        </div>
+        <div class="col-md-1">
+          <label for="validationDefault06" class="form-label">קוד ביטחון</label>
+          <input type="text" class="form-control" id="validationDefault06" placeholder="630" required>
+        </div>
+      </form>
+
+      <form class="row g-3">
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
+            <label class="form-check-label" for="invalidCheck2">
+              זכירת פרטי אשראי
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              (בתוספת 30 שקל) משלוח
+            </label>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck4" required>
+              <label class="form-check-label" for="invalidCheck4" aria-disabled="false">
+                איסוף עצמי
+              </label>
+            </div>
+            <a href="./support.html" id="okay" class="btn btn-primary">אישור</a>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="./final-payment.js"></script>
+
+</html>

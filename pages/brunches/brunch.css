@@ -1,0 +1,278 @@
+body {
+  direction: rtl;
+  overflow-x: hidden;
+  margin: 0%;
+  padding: 0%;
+  z-index: 0;
+  background-color: #fffff0;
+  width: 100%;
+}
+
+#nav_all {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.navbar .icon {
+  color: #0a0909;
+  font-size: 6vh;
+  font-weight: lighter;
+  cursor: pointer;
+  width: 20vw;
+  height: 10vh;
+  position: fixed;
+  margin-top: -5%;
+  background-color: white;
+}
+
+.navbar {
+  opacity: 1;
+  width: 25vw;
+  position: fixed;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+
+.navbar .Navigation {
+  display: block;
+}
+
+.Navigation {
+  width: 20vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  opacity: 1;
+  background-size: cover;
+  background-color: #147a75;
+  overflow-x: scroll;
+  z-index: 2;
+  margin-top: 35%;
+  position: fixed;
+
+}
+
+
+
+.Navigation a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  height: 12vh;
+  opacity: 1;
+}
+
+
+
+.navbar .Navigation {
+  display: none;
+  opacity: 1;
+}
+
+.navbar .Navigation a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.navbar .Navigation a:hover {
+  background-color: rgb(212, 136, 37);
+  color: white;
+}
+
+.navbar.show .Navigation {
+  display: block;
+}
+
+#space_a {
+  width: 10vw;
+  height: 7vh;
+  background-color: white;
+  /* opacity: 0.8; */
+}
+
+#green_nav {
+  display: flex;
+  margin-top: 2%;
+  z-index: 0;
+}
+
+#nav_all #green_nav a img {
+  width: 15vw;
+}
+
+#space {
+  width: 2vw;
+  height: 7vh;
+  background-color: white;
+  opacity: 0.8;
+}
+
+#hello {
+  display: none;
+  margin-top: 2%;
+  font-size: 1.5vw;
+  margin-left: 2%;
+  font-weight: bolder;
+}
+
+#blue_nav {
+  top: 0;
+  left: 0;
+}
+
+#blue_nav_1 {
+  margin-top: 3%;
+  background-color: white;
+}
+
+#blue_nav_2 {
+  margin-top: -3vh;
+  background-color: white;
+}
+
+#b_2 {
+  width: 100%;
+}
+
+button {
+  margin-top: -2%;
+  background-color: rgb(255, 255, 255);
+}
+
+#ace {
+  background-color: #fffff0;
+  height: 30vh;
+  width: 100%;
+  margin-top: -15%;
+}
+
+#all {
+  background-color: #fffff0;
+  margin-top: 10%;
+}
+
+#s {
+  text-align: center;
+  font-size: 60px;
+  color: coral;
+  text-align: center;
+  background-color: #fffff0
+}
+
+#all_brunches {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fffff0
+}
+
+#p {
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: 18%;
+  margin-right: 17%;
+}
+
+#a {
+  display: flex;
+  margin-right: 4%;
+}
+
+#b {
+  display: flex;
+  margin-right: 4%;
+
+}
+
+#c {
+  display: flex;
+  margin-right: 4%;
+
+}
+
+#d {
+  display: flex;
+  margin-right: 4%;
+
+}
+
+#e {
+  display: flex;
+  margin-right: 4%;
+
+}
+
+#f {
+  display: flex;
+  margin-right: 4%;
+
+}
+
+.text {
+  font-family: roboto-example, sans-serif;
+  font-size: 120%;
+  margin-right: 10%;
+  margin-top: 5%;
+  white-space: nowrap;
+}
+
+#together {
+  display: flex;
+}
+
+#j {
+  margin-right: 2.5%;
+}
+
+#space {
+  width: 100%;
+  height: 15vh;
+  background-color: #fffff0;
+}
+
+#img_1 {
+  width: 100%;
+  /* padding-bottom: 0px; */
+}
+
+.all_brunch {
+  background-image: url(../../assets/Background/צבע\ תכלת.png);
+  width: 100%;
+  height: 5vh;
+}
+
+.brunch {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.brunch a {
+  color: black;
+}
+
+.brunch a:hover {
+  color: #fffff0;
+}
+
+#b_doun {
+  background-image: url(../../assets/Background/צבע\ תכלת.png);
+}

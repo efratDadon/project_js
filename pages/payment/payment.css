@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    direction: rtl;
+    overflow-x: hidden;
+    z-index: 0;
+    background-image: url(../../assets/Background/תמונת\ רקע\ דף\ תפריטים.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+#cart-items {
+    margin-top: 10%;
+}
+
+.dishDiv {
+    display: flex;
+    border: 0.5vh solid black;
+    border-radius: 4vw;
+    margin-top: 10%;
+    width: 60%;
+    height: auto;
+    margin-right: 13%;
+    padding: 20px;
+}
+
+.product img {
+    width: 40%;
+    height: 40%;
+}
+
+.productdiv h3 {
+    font-size: 2vw;
+    margin-top: 10vh;
+    margin: 0;
+}
+
+.addor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.addor button {
+    margin-right: 10px;
+}
+
+.deletebutton {
+    background-color: #333;
+    color: white;
+    height: 3vh;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#totalPriceElement {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#topay {
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#topay:hover {
+    background-color: #555;
+}

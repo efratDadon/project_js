@@ -1,0 +1,478 @@
+body {
+  direction: rtl;
+  overflow-x: hidden;
+  margin: 0%;
+  padding: 0%;
+  z-index: 0;
+}
+
+#nav_all {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.navbar .icon {
+  color: #0a0909;
+  font-size: 6vh;
+  font-weight: lighter;
+  cursor: pointer;
+  width: 20vw;
+  height: 10vh;
+  position: fixed;
+  margin-top: -5%;
+  background-color: white;
+}
+
+.navbar {
+  opacity: 1;
+  width: 25vw;
+  position: fixed;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+
+.navbar .Navigation {
+  display: block;
+}
+
+.Navigation {
+  width: 20vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  opacity: 1;
+  background-size: cover;
+  background-color: #147a75;
+  overflow-x: scroll;
+  z-index: 2;
+  margin-top: 35%;
+  position: fixed;
+
+}
+
+
+
+.Navigation a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  height: 12vh;
+  opacity: 1;
+}
+
+
+
+.navbar .Navigation {
+  display: none;
+  opacity: 1;
+}
+
+.navbar .Navigation a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.navbar .Navigation a:hover {
+  background-color: rgb(212, 136, 37);
+  color: white;
+}
+
+.navbar.show .Navigation {
+  display: block;
+}
+
+#space_a {
+  width: 10vw;
+  height: 7vh;
+  background-color: white;
+  /* opacity: 0.8; */
+}
+
+#green_nav {
+  display: flex;
+  margin-top: 2%;
+  z-index: 0;
+}
+
+#nav_all #green_nav a img {
+  width: 15vw;
+}
+
+#space {
+  width: 2vw;
+  height: 7vh;
+  background-color: white;
+  opacity: 0.8;
+}
+
+#hello {
+  display: none;
+  margin-top: 2%;
+  font-size: 1.5vw;
+  margin-left: 2%;
+  font-weight: bolder;
+}
+
+#blue_nav {
+  top: 0;
+  left: 0;
+}
+
+#blue_nav_1 {
+  margin-top: 3%;
+  background-color: white;
+}
+
+#blue_nav_2 {
+  margin-top: -3vh;
+  background-color: white;
+}
+
+#b_2 {
+  width: 100%;
+}
+
+button {
+  margin-top: -2%;
+  background-color: rgb(255, 255, 255);
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: changeBackground 35s infinite;
+}
+
+#Logo {
+  margin-top: 10%;
+  margin-right: 41%;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-16%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fa-angle-down {
+  animation: moveUpDown 2s infinite;
+  font-size: 23vh;
+  color: white;
+  font-weight: light;
+  margin-top: 4%;
+  margin-right: 46%;
+  z-index: 2;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url(../../assets/Background/203350.jpg);
+  }
+
+  16.5% {
+    background-image: url(../../assets/Background/אוכל\ מגרה.jpg);
+  }
+
+  33% {
+    background-image: url(../../assets/Background/אוכל\ מגרה\ 2.jpg);
+  }
+
+  49.5% {
+    background-image: url(../../assets/Background/203350.jpg);
+  }
+
+  66% {
+    background-image: url(../../assets/Background/אוכל\ מגרה.jpg);
+  }
+
+  82.5% {
+    background-image: url(../../assets/Background/אוכל\ מגרה\ 2.jpg);
+  }
+
+  100% {
+    background-image: url(../../assets/Background/203350.jpg);
+  }
+}
+
+#img_1 {
+  width: 100%;
+}
+
+.restaurant {
+  background-color: #fffff0;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.restaurant>a {
+  width: 25%;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2%;
+  margin-right: 2%;
+  transition: transform 0.5s;
+  border-radius: 5%;
+  text-decoration: none;
+}
+
+.restaurant>a:hover {
+  transform: scale(1.2);
+}
+
+.restaurant>a>div {
+  background-color: white;
+  width: 40%;
+  height: 5vh;
+  text-align: center;
+  border-radius: 8%;
+  margin-top: 50%;
+  margin-right: 30%;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: black;
+  box-sizing: border-box
+}
+
+#g {
+  background-image: url(../../assets/Branches/אשדוד.jpg);
+}
+
+#b {
+  background-image: url(../../assets/Branches/חולון.jpg);
+}
+
+#c {
+  background-image: url(../../assets/Branches/הרצליה.jpg);
+}
+
+#d {
+  background-image: url(../../assets/Branches/ירושלים.jpg);
+}
+
+#e {
+  background-image: url(../../assets/Branches/קרית\ אונו.jpg);
+}
+
+#f {
+  background-image: url(../../assets/Branches/ראשון\ לציון.jpg);
+}
+
+#white {
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+}
+
+#cup {
+  margin-right: 55%;
+}
+
+.cup {
+  background-image: url(../../assets/Background/רקע\ לכוס.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.all_brunch {
+  background-color: #fffff0;
+}
+
+.brunch {
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.brunch a {
+  color: black;
+}
+
+.brunch a:hover {
+  color: rgb(13, 159, 196);
+}
+
+#cup_media {
+  display: none;
+}
+
+#imageContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8%;
+  z-index: 55;
+  position: fixed;
+}
+
+#myImage {
+  display: none;
+  width: 90%;
+  border-radius: 8%;
+  margin-top: 3%;
+}
+
+#closeButton {
+  cursor: pointer;
+  margin-top: 2%;
+  margin-right: 43%;
+  size: 30vw;
+  color: white;
+}
+
+
+.modal.transparent {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.modal.transparent .modal-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .Navigation {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar.show .Navigation {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80vw;
+    background-color: #65a1b7;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #65a1b7;
+    z-index: 3;
+  }
+
+  .navbar {
+    padding-left: 70px;
+  }
+
+  #blue_nav {
+    display: flex;
+  }
+
+  #blue_nav_2 {
+    margin-top: 2vh;
+  }
+
+  #blue_nav_1 {
+    margin-top: 2vh;
+  }
+
+  button {
+    height: 5vh;
+  }
+
+  .background {
+    margin-top: -10%;
+    height: 50vh;
+  }
+
+  #Logo {
+    margin-top: 10%;
+    margin-right: 40%;
+  }
+
+  .fa-angle-down {
+    margin-top: 5%;
+    margin-right: 46%;
+  }
+
+  .restaurant {
+    justify-content: center;
+  }
+
+  .restaurant>a {
+    width: 45%;
+    height: 30%;
+    margin: 2.5%;
+  }
+
+  .brunch {
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #nav_all {
+    height: 10vh;
+    width: 100%;
+  }
+
+  .fa-angle-down {
+    animation: moveUpDown 2s infinite;
+    font-size: 20vh;
+    color: white;
+    font-weight: lighter;
+    padding-top: 20vh;
+  }
+
+  #space {
+    display: none;
+  }
+
+  .background {
+    margin-top: -10%;
+  }
+
+  #cup {
+    display: none;
+  }
+
+  #green_nav {
+    display: none;
+  }
+
+  .Navigation {
+    width: 50vw;
+  }
+
+  .Navigation>a {
+    font-size: 70%;
+    height: 20%;
+  }
+}
